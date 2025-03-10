@@ -14,6 +14,7 @@ Tech Stack: React(with TypeScript), Material UI, Fetch API
 please clone the repository
 
 `git clone https://github.com/RepalaPrathyusha1998/Tipalti-Home-Assessment`
+
 `cd Tipalti-Home-Assessment`
 
 ### Installation
@@ -31,15 +32,15 @@ This application fetches transactions from: https://tip-transactions.vercel.app/
 Only the first page of transactions is displayed as per the assessment requirements.
 
 ### Features
-Fetches and displays a list of transactions.
-Shows loading and error states.
-Responsive UI matching the provided design.
-Clean and maintainable Typescript code.
+* Fetches and displays a list of transactions.
+* Shows loading and error states.
+* Responsive UI matching the provided design.
+* Clean and maintainable Typescript code.
 
 ### Future Improvements
 
-Implement pagination for large datasets.
-Add sorting & filtering features.
-Improve UI/UX with better styling and animations
+* Implement pagination for large datasets.
+* Add sorting & filtering features.
+* Improve UI/UX with better styling and animations
 
 
