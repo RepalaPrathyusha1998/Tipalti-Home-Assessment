@@ -1,16 +1,20 @@
-## Tipalti React Starter Template
+## Tipalti Frontend Takehome Assessment
 
-This is a simplified React starter template configured using [Vite](https://vitejs.dev/guide/), a build tool that aims to provide a faster and leaner development experience.
+## Overview
 
-It has minimal dependencies and configuration to allow for easy installation and to allow the candidate to make their own decisions about styling, external libraries and other tooling.
+This project is a React + TypeScript application that fetches and displays expense transactions from an API. The goal is to recreate the provided UI while ensuring clean, structured, and maintainable code.
 
-You are free to make changes to the template but please be aware that those reviewing your work will need to be able to install and run it locally without difficulty.
+Tech Stack: React(with TypeScript), Material UI, Fetch API
+
 
 ---
 
 ## Usage
 
-To use the repository for your challenge submission, please clone the repository and create a new repository on your own Github account . Please DO NOT try to push branches, make pull requests  or fork the original source template repository.
+please clone the repository
+
+`git clone https://github.com/RepalaPrathyusha1998/Tipalti-Home-Assessment`
+`cd Tipalti-Home-Assessment`
 
 ### Installation
 
@@ -19,3 +23,23 @@ From the root folder, run `npm install` to install all required dependencies.
 ### Running Locally
 
 From the root folder, run `npm run dev` to run a local server with hot reloading.
+
+### API Endpoint
+
+This application fetches transactions from: https://tip-transactions.vercel.app/api/transactions
+
+Only the first page of transactions is displayed as per the assessment requirements.
+
+### Features
+Fetches and displays a list of transactions.
+Shows loading and error states.
+Responsive UI matching the provided design.
+Clean and maintainable Typescript code.
+
+### Future Improvements
+
+Implement pagination for large datasets.
+Add sorting & filtering features.
+Improve UI/UX with better styling and animations
+
+
